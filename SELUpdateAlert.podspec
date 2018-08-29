@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SELUpdateAlert"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "SELUpdateAlert"
   s.description  = <<-DESC
             版本更新视图
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/tuyongjiang/SELUpdateAlert.git", :tag => "#{s.version}" }
   s.source_files  = "SELUpdateAlert", "SELUpdateAlert/**/*.{h,m}"
   s.platform     = :ios, "8.0"
-  s.resources = "Resource/*.png"
+  s.resources = "SELUpdateAlert/Resource"
   # 框架要求ARC环境下使用
   s.requires_arc = true
 end
