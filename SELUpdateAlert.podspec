@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SELUpdateAlert"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "SELUpdateAlert"
   s.description  = <<-DESC
             版本更新视图

@@ -118,7 +118,7 @@
     
     //20+166+10+28+10+descHeight+20+40+20 = 314+descHeight 内部元素高度计算bgView高度
     UIImageView *updateIcon = [[UIImageView alloc]initWithFrame:CGRectMake((updateView.frame.size.width - Ratio(178))/2, Ratio(20), Ratio(178), Ratio(166))];
-    updateIcon.image = [UIImage imageNamed:@"VersionUpdate_Icon"];
+    updateIcon.image = [UIImage imageNamed:@"Resource/VersionUpdate_Icon"];
     [updateView addSubview:updateIcon];
     
     //版本号
@@ -161,7 +161,7 @@
     UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeSystem];
     cancelButton.center = CGPointMake(CGRectGetMaxX(updateView.frame), CGRectGetMinY(updateView.frame));
     cancelButton.bounds = CGRectMake(0, 0, Ratio(36), Ratio(36));
-    [cancelButton setImage:[[UIImage imageNamed:@"VersionUpdate_Cancel"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] forState:UIControlStateNormal];
+    [cancelButton setImage:[[UIImage imageNamed:@"Resource/VersionUpdate_Cancel"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] forState:UIControlStateNormal];
     [cancelButton addTarget:self action:@selector(cancelAction) forControlEvents:UIControlEventTouchUpInside];
     [bgView addSubview:cancelButton];
     
